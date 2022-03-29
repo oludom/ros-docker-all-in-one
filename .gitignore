@@ -1,0 +1,13 @@
+ros1/build/*
+ros1/install/*
+ros1/devel/*
+ros1/logs/*
+ros1/site/*
+ros1/.catkin_tools/*
+
+ros2/build/*
+ros2/install/*
+ros2/log/*
+ros2/site/*
+
+*.bag

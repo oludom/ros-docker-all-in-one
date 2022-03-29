@@ -1,0 +1,24 @@
+[submodule "ros1/src/catkin_simple"]
+	path = ros1/src/catkin_simple
+	url = git@github.com:catkin/catkin_simple.git
+[submodule "ros1/src/eigen_catkin"]
+	path = ros1/src/eigen_catkin
+	url = git@github.com:ethz-asl/eigen_catkin.git
+[submodule "ros1/src/eigen_checks"]
+	path = ros1/src/eigen_checks
+	url = git@github.com:ethz-asl/eigen_checks.git
+[submodule "ros1/src/mav_comm"]
+	path = ros1/src/mav_comm
+	url = git@github.com:phxhuy/mav_comm.git
+[submodule "ros1/src/geometric_controller"]
+	path = ros1/src/geometric_controller
+	url = git@github.com:phxhuy/geometric_controller.git
+[submodule "ros1/src/polynomial_trajectory_generation"]
+	path = ros1/src/polynomial_trajectory_generation
+	url = git@github.com:phxhuy/polynomial_trajectory_generation.git
+[submodule "ros1/src/racer_local_planner"]
+	path = ros1/src/racer_local_planner
+	url = git@github.com:phxhuy/racer_local_planner.git
+[submodule "ros1/src/glog_catkin"]
+	path = ros1/src/glog_catkin
+	url = https://github.com/ethz-asl/glog_catkin.git
