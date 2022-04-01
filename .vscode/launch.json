@@ -17,13 +17,14 @@
       "name": "(gdb) Launch",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/install/lib/${input:package}/${input:program}",
+      "program": "${workspaceFolder}/ros2/install/${input:package}/lib/${input:package}/${input:program}",
       "args": [],
       "preLaunchTask": "build",
       "stopAtEntry": true,
-      "cwd": "${workspaceFolder}",
+      "cwd": "${workspaceFolder}/ros2/",
       "externalConsole": false,
       "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb",
       "setupCommands": [
         {
           "description": "Enable pretty-printing for gdb",

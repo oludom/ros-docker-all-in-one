@@ -47,7 +47,7 @@ ENV DEBIAN_FRONTEND=
 
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update \ 
-        && apt-get -y install --no-install-recommends nano ros-foxy-rviz2 terminator
+        && apt-get -y install --no-install-recommends nano ros-foxy-rviz2 terminator gdb
 
 # play ros1 bags with ros2 bag play
 RUN apt-get -y install ros-foxy-rosbag2-bag-v2-plugins
