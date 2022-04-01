@@ -1,10 +1,23 @@
 # VSCode ROS2 Workspace Template
 
-This template will get you set up using ROS2 with VSCode as your IDE.
+This template will get you set up using ROS1 together with ROS2 in VSCode as your IDE.
 
 See [how I develop with vscode and ros2](https://www.allisonthackston.com/articles/vscode_docker_ros2.html) for a more in-depth look on how to use this workspace.
 
 ## Features
+
+### ROS1 bridge for ROS2
+This repo is extended to include both ROS1 noetic and ROS2 foxy. The ros1/ workspace is set up to build ROS1 packages with catkin for noetic and the ros2/ workspace is set up to build ROS2 packages with colcon. 
+
+The script [`ros2/ros1_bridge.sh`](ros2/ros1_bridge.sh) starts the dynamic ros1/2 bridge to forward messages between nodes of both ros versions. 
+
+### Shortcuts
+Some shortcuts are defined in the .bashrc file for convenience. They are listed here:  
+`sf`: as in source foxy, resolves to 'source /opt/ros/foxy/setup.bash'  
+`sn`: as in source noetic, resolves to 'source /opt/ros/noetic/setup.bash'  
+`s`: as in source (local), resolves to 'source install/setup.bash' to source local environment in ROS2  
+`m`: as in make, resolves to 'bash build.sh', requires a build script to be present in the local directory  
+
 
 ### Style
 
